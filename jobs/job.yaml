@@ -1,0 +1,8 @@
+
+- project:
+    name: Indertest
+    jobs:
+      - '{name}-unit-test'
+    defaults: global
+    description: 'Do not edit this job through the web!'
+    display-name: indertestjob

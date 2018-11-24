@@ -1,0 +1,5 @@
+- job-template:
+    name: '{name}-unit-test'
+    project-type: pipeline
+    dsl:
+       !include-raw-escape: share.groovy
